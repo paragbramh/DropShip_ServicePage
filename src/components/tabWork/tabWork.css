@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 500px;
+  background: #f1f1f1;
+  margin: auto 0;
+  word-break: break-all;
+  /* border: 1px solid rgba(0, 0, 0, 0.274); */
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  padding: 0 !important;
+}
+
+.bloc-tabs {
+  display: flex;
+}
+.tabs {
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  background: rgba(128, 128, 128, 0.075);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  box-sizing: content-box;
+  position: relative;
+  outline: none;
+}
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs {
+  /* background: white;
+  border-bottom: 1px solid transparent; */
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: #70da46;
+}
+
+button {
+  border: none;
+}
+.content-tabs {
+  flex-grow: 1;
+}
+.content {
+  background: white;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.content h2 {
+  padding: 0px 0 5px 0px;
+}
+.content hr {
+  width: 100px;
+  height: 2px;
+  background: #222;
+  margin-bottom: 5px;
+}
+.content p {
+  width: 100%;
+  height: 100%;
+}
+.active-content {
+  display: block;
+}
+
+.btn_green {
+  background-color: #70da46 !important;
+  width: 100% !important;
+  margin-right: 5px !important;
+}
+.btn_grey {
+  color: #70da46 !important;
+  width: 100% !important;
+  margin-right: 5px !important;
+  text-align: center !important;
+}
+
+.MuiSvgIcon-root {
+  color: #70da46 !important;
+}
+
+.dabba {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dabba > h2 {
+  margin: 0;
+  color: #70da46 !important;
+  font-size: 14px;
+}
+.dabba > h3 {
+  width: 80%;
+  color: #262424;
+  font-family: Roboto, Bold;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h3 {
+  color: #262424;
+  font-family: Roboto, Bold;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2%;
+}
+
+.tabs:active {
+  color: #70da46 !important;
+  text-decoration-color: #70da46;
+}

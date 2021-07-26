@@ -1,0 +1,41 @@
+/* .carousel-dad
+{
+    margin-left: 2px;
+} */
+.carousel-root{
+    width: 100%;
+}
+
+.carousel{
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+    
+}
+
+.carousel .slide img{
+    width: 545px;
+    aspect-ratio: auto 545 / 364.469;
+    height: 364.469px;
+    margin-left: 5px;
+}
+
+.image {
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+   
+}
+/* 
+@media only screen and (max-width:1200px)
+{
+    .carousel{
+        height: 90vh;
+
+    }
+
+    .carousel .slide img{
+        margin: 10vh auto;
+        width:100vw;
+    };
+} */

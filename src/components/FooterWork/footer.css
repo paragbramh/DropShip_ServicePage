@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.footer {
+  margin-top: 10%;
+}
+
+.outer-footer {
+  padding: 22px;
+  text-align: center;
+
+  font-size: 18px;
+  background-color: #f9f9f9;
+  display: flex;
+}
+.child1 {
+  width: 60%;
+}
+
+.child2 {
+  width: 20%;
+  color: #262424;
+  font-family: Roboto, Bold;
+  font-weight: 600;
+  font-size: 14px;
+}
+.child3 {
+  width: 20%;
+  color: #262424;
+  font-family: Roboto, Bold;
+  font-weight: 600;
+  font-size: 14px;
+}
