@@ -26,7 +26,7 @@ function App() {
           <Route path="/about" exact component={About}></Route>
         </Switch>
       </Router>
-      <h2>halo</h2>
+      {/* <h2>halo</h2> */}
       <Navbar3 />
       <Heading />
       <div className="parent">

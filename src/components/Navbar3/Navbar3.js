@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./Navbar3.css";
 const Navbar3 = () => {
   return (
-    <div>
-      <div className="container mb-5 mt-5">
+    <div className="father">
+      <div className="container mb-5">
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container-fluid col-9  mx-auto py-3">
             <button
