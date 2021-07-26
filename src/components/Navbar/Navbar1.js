@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Navbar2 from "../Navbar2/Navbar2";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "../../../node_modules/bootstrap/dist/js/bootstrap.bundle";
+
 import "./navbar1.css";
 
 const Navbar1 = () => {
@@ -11,7 +14,7 @@ const Navbar1 = () => {
           <div className="col-12 mx-auto">
             <nav className="navbar navbar-expand-lg  navbar-light ">
               <div className="container-fluid">
-                <NavLink className="navbar-brand ms-5" to="/">
+                <NavLink className="navbar-brand ml-5" to="/">
                   <img src="../images/logo.png" alt="" />
                 </NavLink>
                 <button
@@ -31,7 +34,7 @@ const Navbar1 = () => {
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                       <NavLink
                         activeClassName="menu_active"
@@ -77,7 +80,7 @@ const Navbar1 = () => {
                       </NavLink>
                     </li>
 
-                    <li className="nav-item me-5">
+                    <li className="nav-item mr-5">
                       <NavLink
                         activeClassName="menu_active"
                         className="nav-link"

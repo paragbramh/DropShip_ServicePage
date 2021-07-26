@@ -1,3 +1,10 @@
 .father {
   margin-top: 60px !important;
 }
+
+.kid {
+  width: 80%;
+}
+.kid2 {
+  background-color: #e9ecef !important;
+}
